@@ -1,0 +1,83 @@
+h1 {
+
+	text-align: center;
+}
+#navbar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navlist{
+	display: inline;
+	float: center;
+	padding-left: 3em;
+}
+
+a.nav{
+	text-decoration: none;
+}
+
+h2.anchor {
+	position: relative;
+}
+
+
+#banner {
+	top: 0%;
+	margin: 0%;
+	position: fixed;
+	margin-left: -10%;
+	border: solid;
+	border-width: .5em;
+	border-color: #333333;
+	width: 100%;
+	background: #333333;
+
+}
+#notbanner {
+	top: 20%;
+	position: absolute;
+	z-index: -1;
+}
+h2 {
+	margin-left: -5%;
+}
+h3 {
+	margin-left: -2%;
+	margin-bottom: 0em;
+	margin-top: .5em;
+}
+
+body {
+	margin-left: 10%; 
+	margin-right: 10%;
+	margin-top: .5em;
+  	color: white; 
+  	background: #033333;
+  	font-family: sans-serif;
+}
+
+
+div.box {
+	background: #333333;
+	margin-left: 5%; 
+	margin-right: 5%;
+	margin-bottom: 2%;
+	padding-left: 4em;
+	padding-right: 4em;
+	border: solid;
+	border-width: .5em; 
+	width: 80%;
+	border-radius: 1em;
+}
+
+#footer {
+	text-align: center;
+	font-size: 80%;
+}
+
+  a:link { color: #FFFFCC; }  /* for unvisited links */
+  a:visited { color: #FFCCFF; } /* for visited links */
+  a:hover { color: #FF66FF; } /* when mouse is over link */
+  a:active { color: #CCFFCC; } /* when link is clicked */
