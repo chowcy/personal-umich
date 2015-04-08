@@ -1,83 +1,103 @@
-h1 {
-
-	text-align: center;
-}
-#navbar {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.navlist{
-	display: inline;
-	float: center;
-	padding-left: 3em;
-}
-
-a.nav{
-	text-decoration: none;
-}
-
-h2.anchor {
-	position: relative;
-}
-
-
-#banner {
-	top: 0%;
-	margin: 0%;
-	position: fixed;
-	margin-left: -10%;
-	border: solid;
-	border-width: .5em;
-	border-color: #333333;
-	width: 100%;
-	background: #333333;
-
-}
-#notbanner {
-	top: 20%;
-	position: absolute;
-	z-index: -1;
-}
-h2 {
-	margin-left: -5%;
-}
-h3 {
-	margin-left: -2%;
-	margin-bottom: 0em;
-	margin-top: .5em;
-}
-
-body {
-	margin-left: 10%; 
-	margin-right: 10%;
-	margin-top: .5em;
+body 
+{
+	margin: 0;
   	color: white; 
   	background: #033333;
   	font-family: sans-serif;
 }
 
-
-div.box {
+#banner 
+{
+	top: 0%;
+	margin: 0%;
+	position: fixed; /*there even when scrolling*/
+	width: 100%;
 	background: #333333;
-	margin-left: 5%; 
-	margin-right: 5%;
-	margin-bottom: 2%;
-	padding-left: 4em;
-	padding-right: 4em;
-	border: solid;
-	border-width: .5em; 
-	width: 80%;
-	border-radius: 1em;
+	z-index: 1; /*so banner is always visible*/
+	padding-bottom: 2em;
 }
 
-#footer {
+	h1 
+	{
+		text-align: center;
+	}
+
+	#navbar 
+	{
+		list-style-type: none; /*turn off bulleting*/
+	    margin: 0;
+	    padding: 0;
+	    text-align: center;
+	}
+
+		.navlist
+		{
+			display: inline;
+			float: center;
+			padding-left: 3em;
+		}
+
+		a.nav
+		{
+			text-decoration: none;
+		}
+
+#notbanner 
+{
+	padding-top: 8em;
+}
+	#Dresdendiv
+	{
+		left: 0%;
+		right: 0%;
+	}
+	#Dresden
+	{
+		padding-bottom: 3em;
+	}	
+
+	div.box 
+	{
+		background: #333333;
+		margin-left: 5%; 
+		margin-right: 5%;
+		margin-bottom: 2%;
+		padding-left: 4em;
+		padding-right: 4em;
+		padding-top: 2em;
+		padding-bottom: 2em;
+		border: solid;
+		border-width: .5em; 
+		width: 80%;
+		border-radius: 1em;
+	}
+		h2 
+		{
+			margin-left: 0%;
+		}
+
+			h3 
+			{
+				margin-left: 2%;
+				margin-bottom: 0em;
+				margin-top: .5em;
+			}
+
+			.text 
+			{
+				margin-left: 5%;
+				margin-right: 5%;
+			}
+
+#footer 
+{
 	text-align: center;
+	position: relative;
 	font-size: 80%;
+	z-index: 1;
 }
 
   a:link { color: #FFFFCC; }  /* for unvisited links */
-  a:visited { color: #FFCCFF; } /* for visited links */
+  a:visited { color: #FFFFCC; } /* for visited links */
   a:hover { color: #FF66FF; } /* when mouse is over link */
   a:active { color: #CCFFCC; } /* when link is clicked */
