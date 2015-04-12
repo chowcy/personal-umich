@@ -9,8 +9,8 @@
 	<div id="banner">
 		<h1>Cathy Chow</h1>
 		<ul id="navbar">
-			<li class="navlist"><a class="navlink" href="#About">About Me     </a></li>
-			<li class="navlist"><a class="navlink" href="#Education">Education      </a></li>
+			<li class="navlist"><a class="navlink" href="#About">About Me</a></li>
+			<li class="navlist"><a class="navlink" href="#Education">Education</a></li>
 			<li class="navlist"><a class="navlink" href="#Work">Work and Other Experience</a></li>
 			<li class="navlist"><a class="navlink" href="#Fun">Fun Facts</a></li>
 			<li class="navlist"><a class="navlink" href="#Contact">Contact Info</a></li>
@@ -20,10 +20,10 @@
 
 	<div id="notbanner">
 		<div id="Dresdendiv">
-		<img id="Dresden" src="Dresden.jpg" alt="Dresden sunset 2013">
+		<img class="image" src="Dresden.JPG" height="582" width="1492" alt="Dresden sunset 2013">
 		</div>
 		<div class="box">
-			<h2 id="About" class="anchor">About Me</h2>
+			<h2><a class="anchor" name="About">About Me</a></h2>
 				<div class="text">
 					<p>	Hello there! I am currently a senior at the University of Michigan and 
 						will be graduating in May with a Bachelor of Science in German. I know 
@@ -49,15 +49,15 @@
 		</div>
 
 		<div class="box">
-			<h2 id="Education" class="anchor">Education</h2>
+			<h2><a class="anchor" name="Education">Education</a></h2>
 				<h3>University of Michigan</h3>
 					<div class="text">
 						<p><em>Ann Arbor, 2011-2015</em></br>  
 						<p>
 							B.S. Germanic Languages and Literatures</br>  
 							Minor: Program in the Environment</br>  
+							GPA: 3.975</br>
 							For a list of courses I have taken, click <a href="Coursework at UM.pdf" target="blank">here</a>.</br>  
-							All courses were completed with an A- or A, except for one course.
 						</p>
 					</div>
 					</p>
@@ -73,7 +73,7 @@
 		</div>
 
 		<div class="box">
-			<h2 class="anchor" id="Work">Work and Other Experience</h2>
+			<h2><a class="anchor" name="Work">Work and Other Experience</a></h2>
 				<h3>Student Coordinator / Food Service Worker</h3>
 					<div class="text">
 						<p><em>East Quad Dining Hall / South Quad Dining Hall</em></p>
@@ -127,7 +127,7 @@
 						<p>
 							As a Cultural Vistas Fellow in the Summer of 2014, I got to live and intern in Berlin 
 							for free! I worked at a hospital, shadowing nutritional therapists, social workers,
-							and doctors in the adiposity and gastroenterologic Kinderklinik (children's clinic) 
+							and doctors in the adiposity and gastroenterological Kinderklinik (children's clinic) 
 							of the Charit&eacute;, as well as training personnel on SPSS and creating a database 
 							for an exciting upcoming study aiming to improve fatty liver disease diagnosis.
 						</p>
@@ -135,7 +135,7 @@
 		</div>
 
 		<div class="box">
-			<h2 class="anchor" id="Fun">Fun Facts</h2>
+			<h2><a class="anchor" name="Fun">Fun Facts</a></h2>
 				<div class="text">
 					<p>I'm currently teaching myself:</br>
 						<ul>
@@ -157,15 +157,14 @@
 		</div>
 
 		<div class="box">
-			<h2 class="anchor" id="Contact">Contact Info</h2>
+			<h2><a class="anchor" name="Contact">Contact Info</a></h2>
 				<div class="text">
 					<p>Email: chowcy@umich.edu</br>
 					<a href="https://www.linkedin.com/pub/cathy-chow/95/1aa/554" target="blank">LinkedIn</a></p>
 				</div>
 		</div>
 	</div> <!--closes #notbanner-->
-
-		<p id="footer">Site created by Cathy Chow, updated 2015.</p>
+		<p id="footer">Site created by Cathy Chow, updated 11 Apr 2015.</p>
 
 
 </body>
@@ -174,4 +173,6 @@
 <!--http://www.w3.org/MarkUp/Guide/Style.html-->
 <!--This resource was used to figure out how to insert umlauts and other special characters-->
 <!--http://www.webmonkey.com/2010/02/Special_Characters-->
+<!--This resource was used to resolve anchor offset issue-->
+<!--http://stackoverflow.com/questions/4086107/html-positionfixed-page-header-and-in-page-anchors-->
 </html>
